@@ -1,0 +1,22 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: "RalewayRegular";
+    box-sizing: border-box;
+    overflow-x: hidden;
+    background-image: url(../../assets/images/Background-1.png);
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding-bottom: 50px;
+}
+.title{
+    font-weight: 700;
+    font-size: 64px;
+    line-height:75,14px;
+    color: #F95C19;
+}
