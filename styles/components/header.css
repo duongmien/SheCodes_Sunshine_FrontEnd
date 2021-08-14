@@ -27,9 +27,13 @@ header ul{
   font-weight: bold;
   margin-right: 20px;
 }
-header ul li a{
+header ul li .login-href{
   color: #ffffff;
   background-color: #F95C19;
   padding: 5px;
   border-radius: 20px;
+}
+header ul li:hover{
+  color: #F95C19;
+  cursor: pointer;
 }

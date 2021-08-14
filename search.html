@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ShineVietNam</title>
+  <link rel="stylesheet" href="./styles/components/reset.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" />
+  <link rel="stylesheet" href="./styles/components/font.css">
+  <link rel="stylesheet" href="./styles/components/common.css">
+  <link rel="stylesheet" href="./styles/components/header.css">
+  <link rel="stylesheet" href="./styles/pages/search.css">
+  <link rel="stylesheet" href="./styles/components/footer.css">
+</head>
+
+<body>
+  <header>
+    <div class="container">
+      <div class="logo">
+        <img src="./assets/images/logo-01.png" alt="">
+      </div>
+      <div class="content-right">
+        <ul>
+          <li>
+            <p>Trang chủ</p>
+          </li>
+          <li>
+            <p>Về chúng tôi</p>
+          </li>
+          <li>
+            <p>Dành cho nhà tài trợ</p>
+          </li>
+          <li>
+            <i class="fas fa-search"></i>
+            <span>Tìm kiếm</span>
+          </li>
+          <li>
+            <a href="./login.html">
+              <span class="login">Đăng nhập/Đăng ký</span>
+              <i class="fas fa-sign-in-alt"></i>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </header>
+  <main>
+      <section class="title-section">
+        <div class="container">
+          <h1>Shine</h1>
+          <h5>Cộng đồng chia sẻ và kêu gọi tài trợ</h5>
+          <h6>Nền tảng kết nối tài trợ nhu yếu phẩm và dịch vụ sức khỏe trực tuyến</h6>
+          <div class="action">
+            <button>Cần cứu trợ</button>
+            <button>Cứu trợ</button>
+            <button>Sức khỏe</button>
+          </div>
+          <div class="search-field">
+            <i class="fas fa-search"></i>
+            <input type="text" placeholder="Nhập từ khóa tìm kiếm ">
+            <button>Tìm kiếm</button>
+          </div>
+        </div>
+      </section>
+      <section class="content-section">
+        <div class="container">
+        <div class="filter-container">
+          <h3>BỘ LỌC</h3>
+          <div class="input-container">
+            <label for="">Địa điểm <i class="fas fa-map-marker-alt"></i></label>
+            <input type="text" placeholder="Chọn địa điểm cần lọc.....">
+          </div>
+          <div class="input-container">
+            <label for="">Thời gian <i class="far fa-clock"></i></label>
+            <input type="text" placeholder="Chọn thời gian cần lọc.....">
+          </div>
+          <div class="input-container">
+            <label for="">Nhu yếu phẩm <i class="fas fa-truck"></i></label>
+            <input type="text" placeholder="Chọn loại nyp cần lọc.....">
+          </div>
+        </div>
+        <div class="post-container">
+          <div class="tab">
+            <button class="tablinks" onclick="openCity(event, 'London')" id="defaultOpen">Cần hỗ trợ</button>
+            <button class="tablinks" onclick="openCity(event, 'Paris')">Hỗ trợ</button>
+            <button class="tablinks" onclick="openCity(event, 'Tokyo')">Sức khỏe</button>
+          </div>
+          
+          <div id="London" class="tabcontent">
+            <div class="post">
+              <h3>BÀI VIẾT CẦN CỨU TRỢ NHU YẾU PHẨM </h3>
+              <p><i class="far fa-clock"></i> 07:00, 13/08/2021</p>
+              <div class="details">
+                <span>Địa chỉ: KTX khu B, ĐHQG-HCM, Dĩ An, Bình Dương    |    SĐT: 1234567890    |    Họ tên người nhận: Mơ Thị Mộng</span>
+              </div>
+              <div class="desc">We deliver your products safely to your home in a reasonable time. We deliver your products safely to your home in a reasonable time.
+                <br> We deliver your products safely to your home in a reasonable time. We deliver your products safely to your home in a reasonable time. 
+              </div>
+              <div class="action">
+                <button>Truy cập</button>
+                <button>Cứu trợ</button>
+              </div>
+            </div>
+            <div class="post">
+              <h3>BÀI VIẾT CẦN CỨU TRỢ NHU YẾU PHẨM </h3>
+              <p><i class="far fa-clock"></i> 07:00, 13/08/2021</p>
+              <div class="details">
+                <span>Địa chỉ: KTX khu B, ĐHQG-HCM, Dĩ An, Bình Dương    |    SĐT: 1234567890    |    Họ tên người nhận: Mơ Thị Mộng</span>
+              </div>
+              <div class="desc">We deliver your products safely to your home in a reasonable time. We deliver your products safely to your home in a reasonable time.
+                <br> We deliver your products safely to your home in a reasonable time. We deliver your products safely to your home in a reasonable time. 
+              </div>
+              <div class="action">
+                <button>Truy cập</button>
+                <button>Cứu trợ</button>
+              </div>
+            </div>
+            <div class="post">
+              <h3>BÀI VIẾT CẦN CỨU TRỢ NHU YẾU PHẨM </h3>
+              <p><i class="far fa-clock"></i> 07:00, 13/08/2021</p>
+              <div class="details">
+                <span>Địa chỉ: KTX khu B, ĐHQG-HCM, Dĩ An, Bình Dương    |    SĐT: 1234567890    |    Họ tên người nhận: Mơ Thị Mộng</span>
+              </div>
+              <div class="desc">We deliver your products safely to your home in a reasonable time. We deliver your products safely to your home in a reasonable time.
+                <br> We deliver your products safely to your home in a reasonable time. We deliver your products safely to your home in a reasonable time. 
+              </div>
+              <div class="action">
+                <button>Truy cập</button>
+                <button>Cứu trợ</button>
+              </div>
+            </div>
+          </div>
+          
+          <div id="Paris" class="tabcontent">
+            <div class="post">
+              <h3>BÀI VIẾT HỖ TRỢ NHU YẾU PHẨM</h3>
+              <p><i class="far fa-clock"></i>07:00, 13/08/2021</p>
+              <div class="details">
+                <span>Địa chỉ: KTX khu B, ĐHQG-HCM, Dĩ An, Bình Dương    |    SĐT: 1234567890    |    Họ tên người nhận: Mơ Thị Mộng</span>
+              </div>
+              <div class="desc">We deliver your products safely to your home in a reasonable time. We deliver your products safely to your home in a reasonable time.
+                <br> We deliver your products safely to your home in a reasonable time. We deliver your products safely to your home in a reasonable time. 
+              </div>
+              <div class="action">
+                <button>Truy cập</button>
+                <button>Nhận hỗ trợ</button>
+              </div>
+            </div>
+            <div class="post">
+              <h3>BÀI VIẾT HỖ TRỢ NHU YẾU PHẨM</h3>
+              <p><i class="far fa-clock"></i>07:00, 13/08/2021</p>
+              <div class="details">
+                <span>Địa chỉ: KTX khu B, ĐHQG-HCM, Dĩ An, Bình Dương    |    SĐT: 1234567890    |    Họ tên người nhận: Mơ Thị Mộng</span>
+              </div>
+              <div class="desc">We deliver your products safely to your home in a reasonable time. We deliver your products safely to your home in a reasonable time.
+                <br> We deliver your products safely to your home in a reasonable time. We deliver your products safely to your home in a reasonable time. 
+              </div>
+              <div class="action">
+                <button>Truy cập</button>
+                <button>Nhận hỗ trợ</button>
+              </div>
+            </div>
+            <div class="post">
+              <h3>BÀI VIẾT HỖ TRỢ NHU YẾU PHẨM</h3>
+              <p><i class="far fa-clock"></i>07:00, 13/08/2021</p>
+              <div class="details">
+                <span>Địa chỉ: KTX khu B, ĐHQG-HCM, Dĩ An, Bình Dương    |    SĐT: 1234567890    |    Họ tên người nhận: Mơ Thị Mộng</span>
+              </div>
+              <div class="desc">We deliver your products safely to your home in a reasonable time. We deliver your products safely to your home in a reasonable time.
+                <br> We deliver your products safely to your home in a reasonable time. We deliver your products safely to your home in a reasonable time. 
+              </div>
+              <div class="action">
+                <button>Truy cập</button>
+                <button>Nhận hỗ trợ</button>
+              </div>
+            </div>
+          </div>
+          
+          <div id="Tokyo" class="tabcontent">
+            <div class="post">
+              <h3>BÀI VIẾT THẮC MẮC VỀ SỨC KHỎE</h3>
+              <p><i class="far fa-clock"></i>07:00, 13/08/2021</p>
+              <div class="details">
+                <span>Địa chỉ: KTX khu B, ĐHQG-HCM, Dĩ An, Bình Dương    |    SĐT: 1234567890    |    Họ tên người nhận: Mơ Thị Mộng</span>
+              </div>
+              <div class="action">
+                <button>Truy cập</button>
+                <button>Giải đáp</button>
+              </div>
+            </div>
+            <div class="post">
+              <h3>BÀI VIẾT THẮC MẮC VỀ SỨC KHỎE</h3>
+              <p><i class="far fa-clock"></i>07:00, 13/08/2021</p>
+              <div class="details">
+                <span>Địa chỉ: KTX khu B, ĐHQG-HCM, Dĩ An, Bình Dương    |    SĐT: 1234567890    |    Họ tên người nhận: Mơ Thị Mộng</span>
+              </div>
+              <div class="action">
+                <button>Truy cập</button>
+                <button>Giải đáp</button>
+              </div>
+            </div>
+            <div class="post">
+              <h3>BÀI VIẾT THẮC MẮC VỀ SỨC KHỎE</h3>
+              <p><i class="far fa-clock"></i>07:00, 13/08/2021</p>
+              <div class="details">
+                <span>Địa chỉ: KTX khu B, ĐHQG-HCM, Dĩ An, Bình Dương    |    SĐT: 1234567890    |    Họ tên người nhận: Mơ Thị Mộng</span>
+              </div>
+              <div class="action">
+                <button>Truy cập</button>
+                <button>Giải đáp</button>
+              </div>
+            </div>
+          </div>
+            <button class="read-more">Xem thêm</button>
+        </div>
+        </div>
+      </section>
+  </main>
+  <footer>
+    <div class="container">
+      <div class="contact">
+        <div class="about-web">
+          <img src="./assets/images/logo-01.png" alt="">
+          <p>Nền tảng chia sẻ nhu yếu phẩm, chăm sóc sức khỏe và tìm kiếm tài trợ.</p>
+        </div>
+        <ul>
+          <li>Tài nguyên</li>
+          <li>Hướng dẫn đăng ký</li>
+          <li>Hướng dẫn tài trợ</li>
+          <li>Hướng dẫn</li>
+        </ul>
+        <ul>
+          <li>Shine</li>
+          <li>Về chúng tôi</li>
+          <li>Hướng dẫn</li>
+        </ul>
+        <ul>
+          <li>Liên hệ</li>
+          <li>Facebook</li>
+          <li>Quản Trị</li>
+        </ul>
+      </div>
+    </div>
+    <div class="allright">
+      <p>All rights Reserved © Shine, 2021</p>
+      <p>Made with heart by <span style="color: red;">Sunshine</span> </p>
+    </div>
+  </footer>
+  <script>
+    document.getElementById("defaultOpen").click();
+    function openCity(evt, cityName) {
+      var i, tabcontent, tablinks;
+      tabcontent = document.getElementsByClassName("tabcontent");
+      for (i = 0; i < tabcontent.length; i++) {
+        tabcontent[i].style.display = "none";
+      }
+      tablinks = document.getElementsByClassName("tablinks");
+      for (i = 0; i < tablinks.length; i++) {
+        tablinks[i].className = tablinks[i].className.replace(" active", "");
+      }
+      document.getElementById(cityName).style.display = "block";
+      evt.currentTarget.className += " active";
+    }
+    </script>
+</body>
+</html>

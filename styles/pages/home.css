@@ -34,12 +34,22 @@
 
 .about-us .container .content-right {
     width: 50%;
+    position: relative;
 }
 
 .about-us .container .content-right img {
     width: 100%;
+    position: absolute;
+    animation: topBounce 3s ease-in-out infinite;
 }
-
+@keyframes topBounce{
+    0%, 100%{
+        transform: translateY(0);
+    }
+    50%{
+        transform: translateY(25px);
+    }
+}
 .about-us ul {
     display: flex;
     padding-top: 30px;
@@ -195,7 +205,6 @@
 .content-blog .blog ul li:nth-child(2) {
     margin-left: 40px;
 }
-
 button {
     padding: 12px;
     background-color: #FFE4D9;

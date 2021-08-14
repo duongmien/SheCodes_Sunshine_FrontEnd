@@ -2,7 +2,6 @@ footer .contact {
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
-  
 }
 footer .contact .about-web {
     width: 30%;
