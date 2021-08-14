@@ -1,0 +1,32 @@
+footer .contact {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  
+}
+footer .contact .about-web {
+    width: 30%;
+    padding-top: 20px;
+}
+
+footer .contact .about-web img {
+    width: 50%;
+}
+
+footer .contact ul {
+    padding-top: 40px;
+}
+
+footer .contact ul li:nth-child(1) {
+    padding-bottom: 20px;
+    font-weight: bold;
+}
+footer .allright{
+    background-color: #222132;
+    display: flex;
+    justify-content: space-around;
+    color: #ffffff;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    font-size: 13px;
+}

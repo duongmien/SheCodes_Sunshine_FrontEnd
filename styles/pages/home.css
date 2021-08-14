@@ -196,7 +196,7 @@
     margin-left: 40px;
 }
 
- button {
+button {
     padding: 12px;
     background-color: #FFE4D9;
     border: 2px solid #F95C19;
@@ -206,45 +206,46 @@
     margin-top: 30px;
     font-size: 20px;
     color: #F95C19;
-    
 }
-.map{
+
+.map {
     padding-bottom: 100px;
 }
-.map .title{
+
+.map .title {
     text-align: center;
     font-size: 40px;
     padding-top: 50px;
     padding-bottom: 30px;
 }
-.map p{
+
+.map p {
     text-align: center;
     font-weight: 700;
     font-size: 20px;
 }
-.map .img-contact{
+
+.map .img-contact {
     display: flex;
     justify-content: space-around;
     padding-top: 30px;
 }
-.map .img-contact .img{
+
+.map .img-contact .img {
     width: 60%;
-   
 }
-.map .img-contact .img img{
-   
-}
-.map .img-contact .contact{
+
+.map .img-contact .contact {
     width: 40%;
     background-color: #ffffff;
     padding-top: 100px;
 }
-.map .img-contact .contact ul{
+
+.map .img-contact .contact ul {
     padding-left: 100px;
     padding-top: 10px;
 }
+
 .map .img-contact .contact ul li {
     padding-top: 20px;
-}
-.map .img-contact .contact ul li img{
 }
