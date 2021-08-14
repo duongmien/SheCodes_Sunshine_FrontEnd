@@ -27,6 +27,13 @@ header ul{
   font-weight: bold;
   margin-right: 20px;
 }
+header ul li .search{
+  color: #817382;
+}
+header ul li .search:hover{
+  color: #F95C19;
+  cursor: pointer;
+}
 header ul li .login-href{
   color: #ffffff;
   background-color: #F95C19;
