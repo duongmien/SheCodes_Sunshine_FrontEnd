@@ -1,0 +1,42 @@
+ body{
+    background-image: url(../../assets/images/BG-login.png);
+    background-repeat:no-repeat;
+    background-size: cover;
+}
+body .bt-1{
+    padding: 10px 30px;
+    background-color: #264653;
+    color: #ffffff;
+    border-radius: 30px;
+    margin-top: 20px;
+}
+.text-title{
+    font-size: 40px;
+    text-align: center;
+    padding-top: 50px;
+}
+.content{
+    margin: 0 auto;
+    width: 50%;
+    padding-top: 50px;
+}
+.bt{
+  display: flex;
+  justify-content: center;
+}
+.bt-2{
+    padding: 10px 0px;
+    background-color: #FF6B6B;
+    color: #ffffff;
+    border-radius: 30px;
+    margin-top: 20px;
+    outline: none;
+    border:2px solid #FF6B6B;
+    width: 100px;
+    margin: 0px 15px;
+}
+.bt-2:hover{
+    background-color: #FFE4D9;
+    color: #F95C19;
+    border: 2px solid #F95C19;
+} 
