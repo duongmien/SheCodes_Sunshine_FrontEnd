@@ -1,18 +1,21 @@
 /* Section About */
-.about-us{
+
+.about-us {
     background-image: url(../../assets/images/Background.png);
     background-color: #fff4e2;
     padding-bottom: 350px;
-    padding-top: 150px; 
+    padding-top: 100px;
 }
+
 .about-us .container {
     display: flex;
     justify-content: space-around;
     padding-top: 100px;
-   
 }
+
 .about-us .container .content-left {
     width: 50%;
+    top: -10px;
 }
 
 .about-us .container .content-left p:nth-child(2) {
@@ -26,6 +29,7 @@
     font-size: 20px;
     line-height: 24px;
     color: #4D4D4D;
+    padding-top: 20px;
 }
 
 .about-us .container .content-right {
@@ -38,58 +42,209 @@
 
 .about-us ul {
     display: flex;
-    justify-content: space-around;
     padding-top: 30px;
     justify-content: flex-start;
-    
 }
 
 .about-us li {
     background-color: rgb(255, 251, 244);
     border: 2px solid #F95C19;
     border-radius: 10px;
-    
 }
+
 .about-us li:nth-child(2) {
     margin-left: 30px;
 }
+
 .about-us li:nth-child(3) {
     margin-left: 30px;
 }
+
 .about-us li p {
     color: #F95C19;
     font-weight: bold;
     margin: 10px;
     text-align: center;
 }
+
 /* Informatin section */
+
 /* Fact-couter */
-.information{
-    background-color:#fff6e5; 
+
+.information {
+    background-color: #fff6e5;
+    background-image: url(../../assets/images/Background-1.png);
+    padding-top: 80px;
 }
 
-.fact-counter{
-   
-}
-.fact-counter ul{
+.fact-counter ul {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    
 }
-.fact-counter ul li{
+
+.fact-counter ul li {
     width: 20%;
-   align-items: center;
-   text-align: center;
+    align-items: center;
+    text-align: center;
 }
-.fact-counter ul li img{
+
+.fact-counter ul li img {
     display: block;
     margin: 0 auto;
 }
+
 .fact-counter ul li p:nth-child(2) {
     font-family: Arial, Helvetica, sans-serif;
     color: #F95C19;
     font-weight: bold;
     font-size: 35px;
     line-height: 42px;
+}
+
+.content-blog {
+    padding-top: 50px;
+}
+
+.content-blog .title {
+    text-align: center;
+    font-size: 40px;
+    padding-top: 30px;
+    padding-bottom: 40px;
+}
+
+.content-blog .location {
+    text-align: center;
+    padding: 5px;
+    border: 1px solid #F95C19;
+    display: block;
+    box-sizing: border-box;
+    border-radius: 30px;
+    display: block;
+    color: #4D4D4D;
+    display: flex;
+    justify-content: space-around;
+    white-space: nowrap;
+    width: 20%;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+
+.content-blog .location i {
+    display: block;
+    margin-left: 0px;
+}
+
+.content-blog .wrap-blog {
+    background-color: #ffffff;
+    padding: 50px 0px;
+    border-radius: 20px;
+}
+
+.content-blog .blog {
+    margin-left: 80px;
+    margin-right: 80px;
+}
+
+.content-blog .blog:nth-child(1) {
+    border-bottom: 4px solid #FFEDC9;
+    padding-bottom: 20px;
+}
+
+.content-blog .blog .title-blog {
+    color: #F95C19;
+    font-size: 20px;
+    font-weight: bold;
+    padding-bottom: 10px;
+}
+
+.content-blog .blog:nth-child(2) {
+    padding-top: 24px;
+}
+
+.content-blog .blog div {
+    padding-bottom: 20px;
+}
+
+.content-blog .blog p:nth-child(3) {
+    border: 2px solid #F95C19;
+    padding: 8px;
+    border-radius: 10px;
+}
+
+.content-blog .blog p:nth-child(4) {
+    color: #4D4D4D;
+    line-height: 36px;
+    padding-top: 20px;
+}
+
+.content-blog .blog ul {
+    display: flex;
+    justify-content: flex-start;
+    padding-top: 20px;
+    width: 30%;
+}
+
+.content-blog .blog ul li {
+    padding: 8px;
+    background-color: #FFE4D9;
+    border: 2px solid #F95C19;
+    border-radius: 10px;
+}
+
+.content-blog .blog ul li:nth-child(2) {
+    margin-left: 40px;
+}
+
+ button {
+    padding: 12px;
+    background-color: #FFE4D9;
+    border: 2px solid #F95C19;
+    border-radius: 10px;
+    margin: 0 auto;
+    display: block;
+    margin-top: 30px;
+    font-size: 20px;
+    color: #F95C19;
+    
+}
+.map{
+    padding-bottom: 100px;
+}
+.map .title{
+    text-align: center;
+    font-size: 40px;
+    padding-top: 50px;
+    padding-bottom: 30px;
+}
+.map p{
+    text-align: center;
+    font-weight: 700;
+    font-size: 20px;
+}
+.map .img-contact{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 30px;
+}
+.map .img-contact .img{
+    width: 60%;
+   
+}
+.map .img-contact .img img{
+   
+}
+.map .img-contact .contact{
+    width: 40%;
+    background-color: #ffffff;
+    padding-top: 100px;
+}
+.map .img-contact .contact ul{
+    padding-left: 100px;
+    padding-top: 10px;
+}
+.map .img-contact .contact ul li {
+    padding-top: 20px;
+}
+.map .img-contact .contact ul li img{
 }
